@@ -1,0 +1,48 @@
+---
+const syokutakus = [
+    {
+        name: "でありたい。",
+        url: "https://wannabe.xn--2kr713n.xn--q9jyb4c/",
+        description: "「みんなの食卓」と言えばこれ。"
+    },
+    {
+        name: "🍽️",
+        url: "https://www.nipponham.co.jp/shokutaku/",
+        description: "いつものおいしさがある方。"
+    },
+    {
+        name: "📚",
+        url: "https://www.shonengahosha.co.jp/book_Search.php?bookTag=%E3%81%BF%E3%82%93%E3%81%AA%E3%81%AE%E9%A3%9F%E5%8D%93",
+        description: "雑誌の方。"
+    },
+    {
+        name: "芒",
+        url: "https://www.instagram.com/nogi_9393/",
+        description: "大阪府八尾市にある方。"
+    },
+    {
+        name: "うどん",
+        url: "https://esc-pal.com/shop/minnanosyokutaku/",
+        description: "岩手県北上市にある方。"
+    }
+]
+---
+
+<div class="columns is-multiline is-centered">
+    {syokutakus.map ((syokutakus) =>(
+        <a href={syokutakus.url} class="column is-6">
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-header-title">
+                        {syokutakus.name}
+                    </h2>
+                </div>
+                <div class="card-content">
+                    <p>
+                        {syokutakus.description}
+                    </p>
+                </div>
+            </div>
+        </a>
+    ))}
+</div>
