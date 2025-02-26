@@ -1,0 +1,22 @@
+{
+  "name": "xn--2kr713n.xn--q9jyb4c",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.2.1",
+    "astro": "^5.3.1",
+    "astro-purgecss": "^5.2.0",
+    "bulma": "^1.0.3",
+    "purgecss": "^7.0.2"
+  },
+  "devDependencies": {
+    "sass": "^1.85.1",
+    "sass-loader": "^16.0.5"
+  }
+}
